@@ -1,16 +1,27 @@
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from "./components/Layouts/Footer";
+import Homepage from "./components/Homepage/Homepage";
+import AboutUs from "./components/About/AboutUs";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <div className='app'>
+      <main className='app-main'>
+        <Routes>
+        <Route path="/" element={<Homepage />}/>
+        <Route path="/about" element={<AboutUs />}/>
+        </Routes>
+      </main>
+      <Footer/>
     </div>
   );
-}
+};
 
-export default App;
+const AppWrapper = () => (
+  <Router>
+    <App />
+  </Router>
+);
+
+export default AppWrapper;
