@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import React from "react";
 
 const Header = ({ bannerImage, bannerTitle }) => {
@@ -7,14 +6,11 @@ const Header = ({ bannerImage, bannerTitle }) => {
       className="relative bg-cover bg-center bg-no-repeat h-[400px]"
       style={{ backgroundImage: `url(${bannerImage})` }}
     >
-      {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-
-      {/* Navbar */}
       <div className="relative z-10">
         <div className="container mx-auto flex justify-between items-center py-4 px-6">
           <div className="text-2xl font-bold text-white">
-            <a href="/">Property<span className="text-yellow-400">Hub</span></a>
+            <a href="/">M<span className="text-yellow-400">Real Estate</span></a>
           </div>
           <nav className="hidden md:flex space-x-6">
             <a href="/" className="text-white hover:text-yellow-300 transition">Home</a>
@@ -27,8 +23,6 @@ const Header = ({ bannerImage, bannerTitle }) => {
           </button>
         </div>
       </div>
-
-      {/* Banner Title */}
       <div className="relative z-10 flex items-center justify-center h-full">
         <h1 className="text-3xl md:text-5xl font-bold text-white">{bannerTitle}</h1>
       </div>

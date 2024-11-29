@@ -9,7 +9,6 @@ const AboutUs = () => {
         bannerTitle="About Us"
       />
       <main className="container mx-auto px-6 py-12">
-        {/* Content for About Us page */}
       </main>
     </div>
   );
