@@ -29,7 +29,7 @@ const RoomGallery = () => {
     <section>
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">Explore Our Premier Student Accommodations
-</h2>
+        </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {rooms.map((room) => (
             <div
