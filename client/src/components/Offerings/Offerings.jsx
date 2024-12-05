@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../Layouts/Header";
 
 const Offerings = () => {
@@ -20,9 +21,12 @@ const Offerings = () => {
             <p className="text-gray-600 mb-4">
               Experience privacy and comfort in our single rooms, designed for students who value their own space.
             </p>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition">
-              Get Started
-            </button>
+            <Link
+                to="/contact"
+                className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition"
+              >
+                Getting Started
+          </Link>
           </div>
         </section>
 
@@ -34,9 +38,12 @@ const Offerings = () => {
             <p className="text-gray-600 mb-4">
               Affordable and sociable, our sharing rooms are ideal for students looking to build connections.
             </p>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition">
-              Get Started
-            </button>
+            <Link
+                to="/contact"
+                className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition"
+              >
+                Getting Started
+          </Link>
           </div>
         </section>
 
@@ -48,9 +55,12 @@ const Offerings = () => {
             <p className="text-gray-600 mb-4">
               Move in hassle-free with our fully furnished options, complete with all the essentials.
             </p>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition">
-              Get Started
-            </button>
+            <Link
+                to="/contact"
+                className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition"
+              >
+                Getting Started
+          </Link>
           </div>
         </section>
 
