@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-gray-200">
       <div className="container mx-auto py-6 px-6 flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left">
-          <p className="text-lg font-bold">Property<span className="text-yellow-400">Hub</span></p>
+          <p className="text-lg font-bold">M<span className="text-yellow-400">Real Estate</span></p>
           <p className="text-sm mt-2">© 2024 PropertyHub. All rights reserved.</p>
         </div>
         <div className="flex space-x-4 mt-4 md:mt-0">
